@@ -1,8 +1,10 @@
+import Container from "./components/Container";
+
 function App() {
 
   return (
     <div>
-      Desde app js
+      <Container></Container>
     </div>
   )
 }
