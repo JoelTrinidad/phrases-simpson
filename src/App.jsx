@@ -16,8 +16,11 @@ function App() {
   return (
     <Container>
       <Header/>
-      <Welcome reqApi={reqApi}/>
-      <CharacterContainer characters={characters}/>
+      { !characters ? (
+        <Welcome reqApi={reqApi}/>
+      ) : (
+        <CharacterContainer characters={characters}/>
+      ) }
     </Container>
   )
 }
