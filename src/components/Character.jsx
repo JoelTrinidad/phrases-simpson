@@ -24,7 +24,7 @@ const ContentCharacter = styled.div`
   margin: 10px;
 
   &:hover {
-    filter(brightness(40%));
+    filter: brightness(108%);
   }
 `;
 
